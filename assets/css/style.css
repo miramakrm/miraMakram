@@ -136,7 +136,8 @@ section{
 
 }
 .card .icon{
-    font-size:5em;
+    color: #f7f7f7
+    font-size:6em;
     text-align: center;
 }
 
