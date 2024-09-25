@@ -46,11 +46,12 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-   background:url(../images/background.jpg)  no-repeat ;
+        background:url(../images/background.jpg) no-repeat;
     background-size:cover;
     background-position: center ;
     background-attachment: fixed;
 }
+
 .main h2{
     color: #f7f7f7;
      font-size: 2em;
