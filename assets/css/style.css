@@ -116,12 +116,12 @@ section{
     margin-bottom: 30px;
 
 }
-.content {
-    background-color: whitesmoke
+.content{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
 }
 .card{
     background-color: whitesmoke;
