@@ -117,6 +117,9 @@ section{
   justify-content: center;
   flex-direction: row;
 }
+.card {
+  width: 100%;
+}
 .card:hover{
     transform: scale(1.1);
 
