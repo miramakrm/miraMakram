@@ -104,21 +104,29 @@ section{
     margin-bottom: 30px;
 
 }
-.content{
+.content {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
-.card{
-    background-color: whitesmoke;
-    width: 21.25em;
-    box-shadow: 0 5px 2px rgba(1 1 1/20%);
-    border-radius: 20px;
-    padding:25px ;
-    margin:15px ;
-    transition: 0.5s;
+
+.card {
+    width: calc(33% - 30px); /* 3 cards per row with space around */
+    margin: 15px;
 }
+
+@media (max-width: 1024px) {
+    .card {
+        width: calc(50% - 30px); /* 2 cards per row for smaller screens */
+    }
+}
+
+@media (max-width: 640px) {
+    .card {
+        width: 100%; /* 1 card per row for very small screens */
+    }
+}
+
 .card:hover{
     transform: scale(1.1);
 
