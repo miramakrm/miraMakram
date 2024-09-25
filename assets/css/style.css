@@ -105,10 +105,10 @@ section{
 
 }
 .content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr; /* Add this line */
+  justify-content: center;
+
 }
 .card{
     background-color: whitesmoke;
