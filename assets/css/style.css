@@ -119,6 +119,7 @@ section{
     padding:25px ;
     margin:15px ;
     transition: 0.5s;
+    flex-direction: row;
 }
 .card:hover{
     transform: scale(1.1);
@@ -176,6 +177,7 @@ section{
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
+    flex-direction: row;
 }
 
 .project-card:hover {
