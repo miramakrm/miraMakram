@@ -121,10 +121,10 @@ section{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: #f7f7f7;
 }
 .card{
-    background-color: rgba(245, 245, 245, 1);
+    background-color: #f7f7f7;
     width: 21.25em;
     box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.1);
     border-radius: 20px;
