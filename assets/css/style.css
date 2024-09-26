@@ -142,6 +142,16 @@ section{
     text-align: center;
 }
 
+.experience .card {
+    background-color:#f7f7f7  ;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
 .info{
     text-align: center;
     
@@ -219,8 +229,15 @@ section{
     font-weight: 800;
     margin-top: 10px;
 }
-    .contact .card {
-        background-color: whitesmoke;
+    .contact -card {
+     background-color: whitesmoke;
+    width: 21.25em;
+    box-shadow: 0 5px 2px rgba(1 1 1/20%);
+    border-radius: 20px;
+    padding:25px ;
+    margin:15px ;
+    transition: 0.5s;
+}
     }
 .contact .info p{
     color:rgb(78, 77, 15);
