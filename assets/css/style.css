@@ -7,14 +7,14 @@
     scroll-behavior: smooth;
 }
 header{
-    background-color: #f7f7f7;
+     background-color: #f7f7f7;
     width: 100%;
     position: fixed;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 170px;
+    padding: 10px 200px ;
 
 }
 
@@ -30,7 +30,7 @@ a.logo{
 .navigation a{
     color: rgb(199, 147, 17);
     text-decoration: none;
-    font: size 1.8em; 
+    font: size 1.6em; 
     font-weight: 600;
     padding-left: 30px;
 
