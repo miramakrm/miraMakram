@@ -126,7 +126,7 @@ section{
 .card{
     background-color: #f7f7f7;
     width: 21.25em;
-    box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 25px rgba(1 1 1/20%);
     border-radius: 20px;
     padding:25px ;
     margin:15px ;
@@ -134,8 +134,7 @@ section{
 }
 .card:hover{
     transform: scale(1.05);
-     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-
+    
 }
 .card .icon{
    background-color: #f7f7f7
@@ -220,6 +219,9 @@ section{
     font-weight: 800;
     margin-top: 10px;
 }
+    .contact .card {
+        background-color: whitesmoke;
+    }
 .contact .info p{
     color:rgb(78, 77, 15);
 }
