@@ -121,7 +121,7 @@ section{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 1);
 }
 .card{
     background-color: rgba(245, 245, 245, 1);
